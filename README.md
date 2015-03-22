@@ -9,3 +9,5 @@ It require you a little bit of programming skilled but it already made to be rea
 3.Add include('includetop.php'); at the most top of the php files that display content for cms usually it is index.php and put include('includebottom.php'); at the most bottom of the same php files.
 
 That should do the trick. ;)
+
+P.s. Might conflict with Ampare Protector and Defa Protector on some website
