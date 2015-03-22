@@ -42,6 +42,13 @@ $_SESSION['file'.$_SESSION['defat']] = md5('Defa').base64_encode(base64_encode($
 $mes = preg_replace_callback("/(<iframe[^>]*src *= *[\"']?)([^\"']*)/i", getURL, $out2);
 
 echo $mes;
+//$mes = preg_replace_callback("/(<a[^>]*src *= *[\"']?)([^\"']*)/i", getURL, $mes);
+//$mes = preg_replace_callback("/(<img[^>]*src *= *[\"']?)([^\"']*)/i", getURL, $mes);
+//$mes = preg_replace_callback("/(<video[^>]*src *= *[\"']?)([^\"']*)/i", getURL, $mes);
+//$mes = preg_replace_callback("/(<audio[^>]*src *= *[\"']?)([^\"']*)/i", getURL, $mes);
+//$mes = preg_replace_callback("/(<source[^>]*src *= *[\"']?)([^\"']*)/i", getURL, $mes);
+//$mes = preg_replace_callback("/(<embed[^>]*src *= *[\"']?)([^\"']*)/i", getURL, $mes);
+
 }else{
 echo $out2;
 }
