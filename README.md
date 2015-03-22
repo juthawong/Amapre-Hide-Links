@@ -11,3 +11,7 @@ It require you a little bit of programming skilled but it already made to be rea
 That should do the trick. ;)
 
 P.s. Might conflict with Ampare Protector and Defa Protector on some website
+
+If you like our project .Please Donate us 
+
+http://www.juthawong.com/donate
